@@ -22,10 +22,15 @@ gem "title"
 gem "uglifier"
 gem "unicorn"
 
+# Frontend
+
+gem 'slim-rails'
+
 group :development do
   gem "bundler-audit"
   gem "spring"
   gem "spring-commands-rspec"
+  gem 'mailcatcher'
 end
 
 group :development, :test do

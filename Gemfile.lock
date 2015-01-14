@@ -33,9 +33,6 @@ GEM
       multi_json
     arel (5.0.1.20140414130214)
     awesome_print (1.6.1)
-    bourbon (3.2.3)
-      sass (~> 3.2)
-      thor
     builder (3.2.2)
     bundler-audit (0.3.1)
       bundler (~> 1.2)
@@ -64,6 +61,7 @@ GEM
     columnize (0.9.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
+    daemons (1.1.9)
     database_cleaner (1.4.0)
     debugger-linecache (1.2.0)
     delayed_job (4.0.6)
@@ -82,6 +80,7 @@ GEM
     email_validator (1.5.0)
       activemodel
     erubis (2.7.0)
+    eventmachine (1.0.4)
     execjs (2.2.2)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
@@ -93,6 +92,8 @@ GEM
       activesupport
       capybara
       i18n
+    haml (4.0.6)
+      tilt
     high_voltage (2.2.1)
     highline (1.6.21)
     hike (1.2.3)
@@ -115,14 +116,21 @@ GEM
       addressable (~> 2.3)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mailcatcher (0.2.4)
+      eventmachine
+      haml
+      i18n
+      json
+      mail
+      sinatra
+      skinny (>= 0.1.2)
+      sqlite3-ruby
+      thin
     method_source (0.8.2)
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
     multi_json (1.10.1)
-    neat (1.5.1)
-      bourbon (>= 3.1)
-      sass (~> 3.2.19)
     newrelic_rpm (3.9.9.275)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
@@ -135,6 +143,8 @@ GEM
     pry-rails (0.3.2)
       pry (>= 0.9.10)
     rack (1.5.2)
+    rack-protection (1.5.3)
+      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rack-timeout (0.1.1)
@@ -190,6 +200,22 @@ GEM
     simple_form (3.1.0)
       actionpack (~> 4.0)
       activemodel (~> 4.0)
+    sinatra (1.4.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    skinny (0.2.3)
+      eventmachine (~> 1.0.0)
+      thin (~> 1.5.0)
+    slim (3.0.1)
+      temple (~> 0.7.3)
+      tilt (>= 1.3.3, < 2.1)
+    slim-rails (3.0.1)
+      actionmailer (>= 3.1, < 5.0)
+      actionpack (>= 3.1, < 5.0)
+      activesupport (>= 3.1, < 5.0)
+      railties (>= 3.1, < 5.0)
+      slim (~> 3.0)
     slop (3.6.0)
     spring (1.2.0)
     spring-commands-rspec (1.0.4)
@@ -203,9 +229,17 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
+    sqlite3 (1.3.10)
+    sqlite3-ruby (1.3.3)
+      sqlite3 (>= 1.3.3)
+    temple (0.7.5)
     term-ansicolor (1.3.0)
       tins (~> 1.0)
     terminal-table (1.4.5)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
     thor (0.19.1)
     thread (0.1.4)
     thread_safe (0.3.4)
@@ -236,7 +270,6 @@ PLATFORMS
 DEPENDENCIES
   airbrake
   awesome_print
-  bourbon (~> 3.2.1)
   bundler-audit
   byebug
   capybara-webkit (>= 1.2.0)
@@ -252,7 +285,7 @@ DEPENDENCIES
   i18n-tasks
   jquery-rails
   launchy
-  neat (~> 1.5.1)
+  mailcatcher
   newrelic_rpm
   normalize-rails (~> 3.0.0)
   pg
@@ -265,6 +298,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   shoulda-matchers
   simple_form
+  slim-rails
   spring
   spring-commands-rspec
   timecop
