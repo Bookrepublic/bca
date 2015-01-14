@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    meta content="NOODP" name="ROBOTS"
+    meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"
+    meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui, maximum-scale=1.0"
+    title Bookrepublic Content Agency
+    = stylesheet_link_tag    'application', media: 'all'
+    = csrf_meta_tags
+  body
+    = render "flashes"
+    = yield
+    = render "javascript"
