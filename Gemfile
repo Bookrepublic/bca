@@ -61,3 +61,7 @@ source 'https://rails-assets.org'
 gem 'rails-assets-normalize-scss'
 
 gem 'sass'
+
+gem 'rails-assets-normalize-scss'
+
+gem 'sass'
