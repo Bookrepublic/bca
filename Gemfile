@@ -16,7 +16,6 @@ gem "pg"
 gem "rack-timeout"
 gem "rails", "4.1.8"
 gem "recipient_interceptor"
-gem "simple_form"
 gem "title"
 gem "uglifier"
 gem "unicorn"
@@ -59,9 +58,4 @@ end
 source 'https://rails-assets.org'
 
 gem 'rails-assets-normalize-scss'
-
-gem 'sass'
-
-gem 'rails-assets-normalize-scss'
-
 gem 'sass'
