@@ -19,6 +19,7 @@ gem "recipient_interceptor"
 gem "title"
 gem "uglifier"
 gem "unicorn"
+gem 'formtastic'
 
 # Frontend
 
