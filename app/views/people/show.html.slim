@@ -1,0 +1,24 @@
+p#notice = notice
+
+p
+  strong First name:
+  = @person.first_name
+p
+  strong Last name:
+  = @person.last_name
+p
+  strong Biography:
+  = @person.biography
+p
+  strong Fb profile:
+  = @person.fb_profile
+p
+  strong Tw profile:
+  = @person.tw_profile
+p
+  strong In profile:
+  = @person.in_profile
+
+= link_to 'Edit', edit_person_path(@person)
+'|
+= link_to 'Back', people_path
