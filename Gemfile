@@ -20,6 +20,7 @@ gem "title"
 gem "uglifier"
 gem "unicorn"
 gem 'formtastic'
+gem 'medium-editor-rails'
 
 # Frontend
 
