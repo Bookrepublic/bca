@@ -21,6 +21,9 @@ gem "uglifier"
 gem "unicorn"
 gem 'formtastic'
 gem 'medium-editor-rails'
+gem 'rails-assets-iacquire-medium-editor-insert-plugin'
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
 
 # Frontend
 
