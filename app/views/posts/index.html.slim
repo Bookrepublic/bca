@@ -20,10 +20,11 @@ table
         td = post.excerpt
         td = post.article
         td = post.date
-        td = link_to 'Show', post
-        td = link_to 'Edit', edit_post_path(post)
-        td = link_to 'Destroy', post, data: {:confirm => 'Are you sure?'}, :method => :delete
 
 br
 
-= link_to 'New Post', new_post_path
+- if user_signed_in?
+  = link_to 'Show', post
+  = link_to 'Edit', edit_post_path(post)
+  = link_to 'Destroy', post, data: {:confirm => 'Are you sure?'}, :method => :delete
+  = link_to 'New Post', new_post_path
