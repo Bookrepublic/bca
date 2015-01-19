@@ -7,7 +7,7 @@ ActiveAdmin.register User do
         column :last_sign_in_at
         column :sign_in_count
         column :role
-        default_actions
+        actions
     end
 
     filter :email
@@ -17,7 +17,7 @@ ActiveAdmin.register User do
             f.input :email
             f.input :password
             f.input :password_confirmation
-            f.input :role, as: :radio
+            f.input :role, as: :check_boxes, collection: ["administrator", "editor"]
         end
         f.actions
     end
