@@ -30,31 +30,32 @@ gem 'devise'
 gem 'slim-rails'
 
 group :development do
-gem "bundler-audit"
-gem "spring"
-gem "spring-commands-rspec"
-gem 'mailcatcher'
+  gem "bundler-audit"
+  gem "spring"
+  gem "spring-commands-rspec"
+  gem 'mailcatcher'
+  gem 'guard'
 end
 
 group :development, :test do
-gem 'better_errors'
-gem 'binding_of_caller'
-gem "awesome_print"
-gem "byebug"
-gem "dotenv-rails"
-gem "factory_girl_rails"
-gem "pry-rails"
-gem "rspec-rails", "~> 3.0.0"
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem "awesome_print"
+  gem "byebug"
+  gem "dotenv-rails"
+  gem "factory_girl_rails"
+  gem "pry-rails"
+  gem "rspec-rails", "~> 3.0.0"
 end
 
 group :test do
-gem "capybara-webkit", ">= 1.2.0"
-gem "database_cleaner"
-gem "formulaic"
-gem "launchy"
-gem "shoulda-matchers", require: false
-gem "timecop"
-gem "webmock"
+  gem "capybara-webkit", ">= 1.2.0"
+  gem "database_cleaner"
+  gem "formulaic"
+  gem "launchy"
+  gem "shoulda-matchers", require: false
+  gem "timecop"
+  gem "webmock"
 end
 
 group :staging, :production do
