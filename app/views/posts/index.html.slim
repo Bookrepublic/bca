@@ -14,17 +14,18 @@ table
 
   tbody
     - @posts.each do |post|
-      tr
-        td = post.title
-        td = post.subtitle
-        td = post.excerpt
-        td = post.article
-        td = post.date
+      - if post.status?
+        tr
+          td = post.title
+          td = post.subtitle
+          td = post.excerpt
+          td = post.article
+          td = post.date
+          - if user_signed_in?
+            td = link_to 'Show', post
+            td = link_to 'Edit', edit_post_path(post)
+            td = link_to 'Destroy', post, data: {:confirm => 'Are you sure?'}, :method => :delete
 
 br
 
-- if user_signed_in?
-  = link_to 'Show', post
-  = link_to 'Edit', edit_post_path(post)
-  = link_to 'Destroy', post, data: {:confirm => 'Are you sure?'}, :method => :delete
   = link_to 'New Post', new_post_path
