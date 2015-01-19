@@ -25,6 +25,7 @@ gem 'rails-assets-iacquire-medium-editor-insert-plugin'
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'cancancan'
+gem 'paperclip'
 
 # Frontend
 
