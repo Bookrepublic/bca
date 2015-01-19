@@ -36,6 +36,7 @@ group :development do
   gem "spring-commands-rspec"
   gem 'mailcatcher'
   gem 'guard'
+  gem 'guard-livereload', require: false
 end
 
 group :development, :test do
