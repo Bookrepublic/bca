@@ -26,6 +26,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'cancancan'
 gem 'paperclip'
+gem 'aws-sdk'
 
 # Frontend
 
