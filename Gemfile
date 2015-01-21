@@ -20,8 +20,6 @@ gem "title"
 gem "uglifier"
 gem "unicorn"
 gem 'formtastic'
-gem 'medium-editor-rails'
-gem 'rails-assets-iacquire-medium-editor-insert-plugin'
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'cancancan'
@@ -31,6 +29,8 @@ gem 'aws-sdk'
 # Frontend
 
 gem 'slim-rails'
+gem 'rails-assets-daviferreira--medium-editor'
+gem 'rails-assets-iacquire-medium-editor-insert-plugin'
 
 group :development do
   gem "bundler-audit"
