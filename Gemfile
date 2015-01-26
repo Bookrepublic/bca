@@ -28,6 +28,7 @@ gem 'aws-sdk'
 
 # Frontend
 
+gem 'autoprefixer-rails'
 gem 'slim-rails'
 gem 'rails-assets-daviferreira--medium-editor'
 gem 'rails-assets-iacquire-medium-editor-insert-plugin'

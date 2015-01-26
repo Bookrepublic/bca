@@ -13,6 +13,10 @@
 .hero__body__inner
   display: table-cell
   vertical-align: middle
+  +vertical-padding(15)
+
+.hero__body__inner--footer
+  @extend .hero__body__inner
   +vertical-padding(4)
 
 .hero__heading
@@ -34,10 +38,19 @@
 .hero__actions
   +margin-top(2)
 
-.hero--primary
+.hero--alpha
   @extend .hero
   background-color: $primary-color
   color: white
+
+.hero--beta
+  @extend .hero
+  background-color: $bca-secondary
+  color: white
+
+.hero--gamma
+  @extend .hero
+  background-color: white
 
 .hero--full
   @extend .hero
