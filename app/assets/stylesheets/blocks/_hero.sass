@@ -39,6 +39,18 @@
   background-color: $primary-color
   color: white
 
+.hero--full
+  @extend .hero
+  background-color: $bca-primary
+  color: white
+
+.hero--full__body
+  @extend .hero__body
+  height: 100vh
+
+  +at-breakpoint(eq-palm)
+    height: 100%
+
   .hero__text a
     color: white
 

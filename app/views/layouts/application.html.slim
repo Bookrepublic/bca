@@ -9,8 +9,8 @@ html
     = stylesheet_link_tag    'application', media: 'all'
     = csrf_meta_tags
   body
-    - if can? :update, @user
-      = link_to "Admin", admin_root_path
+    /- if can? :update, @user
+      /= link_to "Admin", admin_root_path
     = render "flashes"
     = yield
     = render "javascript"

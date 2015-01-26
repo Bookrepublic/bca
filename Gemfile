@@ -31,6 +31,7 @@ gem 'aws-sdk'
 gem 'slim-rails'
 gem 'rails-assets-daviferreira--medium-editor'
 gem 'rails-assets-iacquire-medium-editor-insert-plugin'
+gem 'slick_rails'
 
 group :development do
   gem "bundler-audit"
