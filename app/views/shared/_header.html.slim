@@ -5,12 +5,10 @@
 
     .header__inner
       .header__logo
-        =link_to('#home', onclick: "$('#home').animatescroll();") do
-          img src="/images/logo-emmabooks.png"
+        =link_to('#home') do
+          p Logo
+      .header__menu
+        .header__text
+          .header__text__item =link_to 'Programma', '#programma', onclick: "$('#programma').animatescroll();"
+          .header__text__item =link_to 'Ospiti', '#ospiti', onclick: "$('#ospiti').animatescroll();"
 
-        .header__menu
-          .header__text
-            .header__text__item =link_to 'Programma', '#programma', onclick: "$('#programma').animatescroll();"
-            .header__text__item =link_to 'Ospiti', '#ospiti', onclick: "$('#ospiti').animatescroll();"
-            .header__text__item
-            .header__text__item__buy_button =link_to 'Acquista il biglietto', '#buy', onclick: "$('#buy').animatescroll()"

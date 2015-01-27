@@ -12,7 +12,7 @@
     display: table
     width: 100%
 
-    +at-breakpoint(lte-lap)
+    +at-breakpoint(eq-palm)
       display: none
 
     .header__logo
@@ -33,24 +33,6 @@
         padding-left: 2rem
         text-align: center
 
-      .header__text__item__buy_button
-        transition: background 0.3s ease-in-out
-        padding: 0.5rem 2rem
-        display: inline-block
-        vertical-aling: middle
-        white-space: nowrap
-        cursor: pointer
-        border: 2px solid #ED6E9B
-        border-radius: 5px
-
-        &:hover
-          outline: 0
-          background-color: rgba(237,110,155,.2)
-
-      a
-        text-decoration: none
-        color: #ED6E9B
-
 .headroom
   transition: transform 200ms linear
 
@@ -59,3 +41,22 @@
 
 .headroom--unpinned
   transform: translateY(-100%)
+
+.header__hamburger
+  vertical-align: middle
+  font-size: $base-font-size * 1.8
+  float: right
+  display: none
+
+  a
+    color: $base-body-color
+    text-decoration: none
+
+  +at-breakpoint(eq-palm)
+    display: table-cell
+
+.header__logo--devices
+  display: table-cell
+  vertical-aling: middle  
+  +at-breakpoint(gte-small-desk)
+    display: none
