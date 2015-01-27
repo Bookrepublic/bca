@@ -41,8 +41,10 @@ group :development do
   gem "spring"
   gem "spring-commands-rspec"
   gem 'mailcatcher'
-  gem 'guard'
   gem 'guard-livereload', require: false
+  gem 'rack-livereload'
+  gem 'rb-inotify', require: false # linux
+  gem 'rb-fsevent', require: false # os x
 end
 
 group :development, :test do

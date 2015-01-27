@@ -252,6 +252,8 @@ GEM
     pry-rails (0.3.2)
       pry (>= 0.9.10)
     rack (1.5.2)
+    rack-livereload (0.3.15)
+      rack
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
@@ -423,7 +425,6 @@ DEPENDENCIES
   flutie
   formtastic
   formulaic
-  guard
   guard-livereload
   high_voltage
   i18n-tasks
@@ -436,6 +437,7 @@ DEPENDENCIES
   pg
   pry-byebug
   pry-rails
+  rack-livereload
   rack-timeout
   rails (= 4.1.8)
   rails-assets-bigSlide
@@ -444,6 +446,8 @@ DEPENDENCIES
   rails-assets-iacquire-medium-editor-insert-plugin
   rails-assets-normalize-scss
   rails_12factor
+  rb-fsevent
+  rb-inotify
   recipient_interceptor
   rspec-rails (~> 3.0.0)
   sass
