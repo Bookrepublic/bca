@@ -33,6 +33,8 @@ gem 'slim-rails'
 gem 'rails-assets-daviferreira--medium-editor'
 gem 'rails-assets-iacquire-medium-editor-insert-plugin'
 gem 'slick_rails'
+gem 'rails-assets-headroom.js'
+gem 'rails-assets-bigSlide'
 
 group :development do
   gem "bundler-audit"

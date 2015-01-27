@@ -3,6 +3,8 @@
 //= require medium-editor
 //= require iacquire-medium-editor-insert-plugin
 //= require slick
+//= require bigSlide
+//= require headroom.js
 //= require_tree .
 
 var editor = new MediumEditor('.editable');

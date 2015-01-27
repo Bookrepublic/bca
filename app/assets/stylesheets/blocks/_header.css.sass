@@ -1,0 +1,61 @@
+.header
+  background-color: $bca-secondary
+  z-index: 200
+  transition: all 0.5s ease-in-out
+  position: fixed
+  max-height : 80px
+  overflow: hidden
+  width: 100%
+  padding: 3px
+
+  .header__inner
+    display: table
+    width: 100%
+
+    +at-breakpoint(lte-lap)
+      display: none
+
+    .header__logo
+      display: table-cell
+      vertical-aling: middle
+
+    .header__menu
+      display: table-cell
+      text-align: right
+      vertical-align: middle
+
+    .header__text
+      color: #ED6E9B
+      display: block
+
+      .header__text__item
+        display: inline-block
+        padding-left: 2rem
+        text-align: center
+
+      .header__text__item__buy_button
+        transition: background 0.3s ease-in-out
+        padding: 0.5rem 2rem
+        display: inline-block
+        vertical-aling: middle
+        white-space: nowrap
+        cursor: pointer
+        border: 2px solid #ED6E9B
+        border-radius: 5px
+
+        &:hover
+          outline: 0
+          background-color: rgba(237,110,155,.2)
+
+      a
+        text-decoration: none
+        color: #ED6E9B
+
+.headroom
+  transition: transform 200ms linear
+
+.headroom--pinned
+  transform: translateY(0%)
+
+.headroom--unpinned
+  transform: translateY(-100%)
