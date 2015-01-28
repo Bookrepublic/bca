@@ -92,6 +92,7 @@
 .grid__item--head
   +heading-font-family
   +font-size(alpha)
+  font-weight: bold
   line-height: 1.2 
   color: $bca-primary
 
@@ -100,7 +101,9 @@
   +font-size(delta)
   +margin-top(2)
   color: $base-body-color
-
+  p
+    +margin-top(2)
+  
   +at-breakpoint(eq-palm)
     +font-size(delta / 2)
 
