@@ -32,6 +32,10 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function() {
+    $('.menu-link').bigSlide();
+});
+
 //$(document).ready(function() {
   //if($('#slidr-id').length > 0) {
     //var s = slidr.create('slidr-id', {

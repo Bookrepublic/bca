@@ -1,0 +1,11 @@
+#menu.panel role="navigation"
+  ul
+    li
+      =link_to('#home', onclick: "$('#home').animatescroll();") do
+        img src="/images/logo-emmabooks.png"
+    li
+      =link_to 'Programma', '#', onclick: "$('#programma').animatescroll();"
+    li
+      =link_to 'Ospiti', '#ospiti', onclick: "$('#ospiti').animatescroll();"
+    li
+      =link_to 'Acquista il biglietto', '#buy', onclick: "$('#buy').animatescroll()"

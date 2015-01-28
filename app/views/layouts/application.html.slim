@@ -11,6 +11,7 @@ html
   body
     /- if can? :update, @user
       /= link_to "Admin", admin_root_path
+    = render 'shared/panel'
     = render 'shared/header'
     = render "flashes"
     = yield
