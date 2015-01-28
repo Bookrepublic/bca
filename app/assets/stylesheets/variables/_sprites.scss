@@ -2,10 +2,16 @@
 
 $sprite-size: (
   width:   478px,
-  height:  314px
+  height:  390px
 );
 
 $sprite-images: (
+  40k: (
+    x:             0px,
+    y:             317px,
+    width:         150px,
+    height:        35px
+  ),
   arrow--down: (
     x:             253px,
     y:             253px,
@@ -13,16 +19,40 @@ $sprite-images: (
     height:        50px
   ),
   arrow--left: (
-    x:             306px,
-    y:             253px,
+    x:             459px,
+    y:             317px,
     width:         14px,
     height:        25px
   ),
   arrow--right: (
-    x:             323px,
+    x:             459px,
     y:             253px,
     width:         14px,
     height:        25px
+  ),
+  cw: (
+    x:             0px,
+    y:             355px,
+    width:         150px,
+    height:        35px
+  ),
+  emma: (
+    x:             306px,
+    y:             253px,
+    width:         150px,
+    height:        35px
+  ),
+  exlibris: (
+    x:             153px,
+    y:             355px,
+    width:         150px,
+    height:        35px
+  ),
+  ibt15: (
+    x:             153px,
+    y:             317px,
+    width:         150px,
+    height:        35px
   ),
   logo: (
     x:             0px,
@@ -31,19 +61,25 @@ $sprite-images: (
     height:        61px
   ),
   one: (
-    x:             0px,
+    x:             393px,
     y:             0px,
     width:         85px,
     height:        250px
   ),
+  store: (
+    x:             306px,
+    y:             317px,
+    width:         150px,
+    height:        35px
+  ),
   three: (
-    x:             88px,
+    x:             151px,
     y:             0px,
     width:         239px,
     height:        250px
   ),
   two: (
-    x:             330px,
+    x:             0px,
     y:             0px,
     width:         148px,
     height:        250px

@@ -1,8 +1,8 @@
 .button
   +heading-font-family
-  padding: 0.7em 1em
+  padding: 0.5em 0.7em
   text-decoration: none
-  border: 2px solid $base-body-color
+  border: 1px solid $base-body-color
   display: inline-block
   vertical-align: middle
   white-space: nowrap
@@ -15,7 +15,7 @@
   border-radius: 0
   box-sizing: border-box
   transition: box-shadow 0.1s ease-out, transform 0.1s ease-out, text-shadow 0.1s ease-out
-  font-size: 1.1em
+  font-size: 1em
   box-shadow: 0 0 0 rgba(black, 0.2)
 
   .no-touch &:hover
@@ -35,6 +35,10 @@
   i:first-child:last-child
     margin-left: 0
     margin-right: 0
+
+.button--extra-small
+  @extend .button
+  font-size: 0.6em
 
 .button--small
   @extend .button
