@@ -89,3 +89,19 @@
       +shift-setup(left, "#{$name}-push-")
       +shift-setup(right, "#{$name}-pull-")
 
+.grid__item--head
+  +heading-font-family
+  +font-size(alpha)
+  line-height: 1.2 
+  color: $bca-primary
+
+.grid__item--text
+  +heading-font-family
+  +font-size(delta)
+  +margin-top(2)
+  color: $base-body-color
+
+  +at-breakpoint(eq-palm)
+    +font-size(delta / 2)
+
+

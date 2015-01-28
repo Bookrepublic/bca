@@ -12,7 +12,7 @@
     display: table
     width: 100%
 
-    +at-breakpoint(eq-palm)
+    +at-breakpoint(lte-lap)
       display: none
 
     .header__logo
@@ -39,7 +39,6 @@
           &:hover
             text-decoration: underline
 
-
 .headroom
   transition: transform 200ms linear
 
@@ -48,7 +47,6 @@
 
 .headroom--unpinned
   transform: translateY(-100%)
-  bacground-color: white
 
 .header__hamburger
   vertical-align: middle
@@ -60,11 +58,11 @@
     color: $bca-primary
     text-decoration: none
 
-  +at-breakpoint(eq-palm)
+  +at-breakpoint(lte-lap)
     display: table-cell
 
 .header__logo--devices
   display: table-cell
   vertical-aling: middle  
   +at-breakpoint(gte-small-desk)
-    display: none
+    display: none 
