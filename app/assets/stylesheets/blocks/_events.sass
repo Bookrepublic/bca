@@ -1,89 +1,11 @@
-.hero
-  background-repeat: no-repeat
-  background-position: center center
-  background-color: $light-bg-color
-  background-size: cover
-  position: relative
+.hero__events
+  @extend .hero--beta
+  background-image: image-url('events.jpg')   
+  background-position: top left
 
-.hero__body
-  display: table
+  +at-breakpoint(lte-lap)
+    background-position: top center
+
+
+.images--event
   width: 100%
-  text-align: center
-
-.hero__body__inner
-  display: table-cell
-  vertical-align: bottom
-  +vertical-padding(15)
-
-.hero__body__inner--footer
-  @extend .hero__body__inner
-  +vertical-padding(4)
-
-.hero__heading
-  +heading-font-family
-  +font-size(alpha)
-  line-height: 1.2
-  margin-left: auto
-  margin-right: auto
-  max-width: 800px
-
-  h2
-    +font-size(gamma)
-    //text-transform: uppercase
-    padding-top: 20px
-
-.hero__text
-  +heading-font-family
-  +font-size(gamma)
-  +margin-top(2)
-  max-width: 750px
-  margin-left: auto
-  margin-right: auto
-
-.hero__actions
-  +margin-top(2)
-
-.hero--alpha
-  @extend .hero
-  background-color: $primary-color
-  color: white
-
-.hero--beta
-  @extend .hero
-  //background-color: $bca-secondary
-  color: white
-
-.hero--gamma
-  @extend .hero
-  background-color: white
-
-.hero--full
-  @extend .hero
-  color: $base-body-color
-
-.hero--full__body
-  @extend .hero__body
-  height: 100vh
-
-  +at-breakpoint(eq-palm)
-    height: 100%
-
-  .hero__text a
-    color: white
-
-+at-breakpoint(desk)
-  .hero__heading
-    +font-size(40px)
-
-.hero__home--eggs
-  @extend .hero--full
-  background-image: image-url('home-eggs.jpg') 
-
-.hero__home--pen
-  @extend .hero--full
-  background-image: image-url('home-pen.jpg') 
-
-.hero__home--apple2
-  @extend .hero--full
-  background-image: image-url('home-apple2.jpg')   
-

@@ -1,64 +1,88 @@
 // Generated automatically via Grunt, do not edit manually!
 
 $sprite-size: (
-  width:   478px,
-  height:  467px
+  width:   731px,
+  height:  453px
 );
 
 $sprite-images: (
   40k: (
-    x:             183px,
-    y:             317px,
+    x:             481px,
+    y:             321px,
     width:         180px,
     height:        48px
   ),
+  alitalia: (
+    x:             581px,
+    y:             372px,
+    width:         97px,
+    height:        19px
+  ),
   arrow--down: (
-    x:             253px,
-    y:             253px,
+    x:             481px,
+    y:             64px,
     width:         50px,
     height:        50px
   ),
   arrow--left: (
-    x:             323px,
-    y:             253px,
+    x:             695px,
+    y:             117px,
     width:         14px,
     height:        25px
   ),
   arrow--right: (
-    x:             306px,
-    y:             253px,
+    x:             717px,
+    y:             64px,
     width:         14px,
     height:        25px
   ),
   cw: (
-    x:             0px,
-    y:             419px,
+    x:             481px,
+    y:             219px,
     width:         180px,
     height:        48px
   ),
   emma: (
-    x:             0px,
-    y:             317px,
+    x:             481px,
+    y:             270px,
     width:         180px,
     height:        48px
   ),
+  events: (
+    x:             0px,
+    y:             253px,
+    width:         200px,
+    height:        200px
+  ),
   exlibris: (
-    x:             183px,
-    y:             419px,
+    x:             481px,
+    y:             117px,
     width:         180px,
     height:        48px
   ),
   ibt15: (
-    x:             0px,
-    y:             368px,
+    x:             534px,
+    y:             64px,
     width:         180px,
     height:        48px
   ),
-  logo: (
-    x:             0px,
+  learning: (
+    x:             203px,
     y:             253px,
+    width:         200px,
+    height:        200px
+  ),
+  logo: (
+    x:             481px,
+    y:             0px,
     width:         250px,
     height:        61px
+  ),
+  napisan: (
+    x:             664px,
+    y:             117px,
+    width:         28px,
+    height:        27px
   ),
   one: (
     x:             393px,
@@ -66,9 +90,15 @@ $sprite-images: (
     width:         85px,
     height:        250px
   ),
+  sodexo: (
+    x:             481px,
+    y:             372px,
+    width:         97px,
+    height:        19px
+  ),
   store: (
-    x:             183px,
-    y:             368px,
+    x:             481px,
+    y:             168px,
     width:         180px,
     height:        48px
   ),
@@ -83,6 +113,12 @@ $sprite-images: (
     y:             0px,
     width:         148px,
     height:        250px
+  ),
+  unicredit: (
+    x:             481px,
+    y:             394px,
+    width:         97px,
+    height:        19px
   )
 );
 
