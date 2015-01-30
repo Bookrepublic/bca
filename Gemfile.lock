@@ -275,6 +275,7 @@ GEM
     rails-assets-iacquire-medium-editor-insert-plugin (0.4.0)
       rails-assets-jquery (>= 1.9.0, < 2.0.4)
       rails-assets-medium-editor (~> 1.9)
+    rails-assets-ihover (1.0.0)
     rails-assets-jquery (2.0.3)
     rails-assets-medium-editor (1.9.13)
     rails-assets-normalize-scss (3.0.2)
@@ -444,6 +445,7 @@ DEPENDENCIES
   rails-assets-daviferreira--medium-editor
   rails-assets-headroom.js
   rails-assets-iacquire-medium-editor-insert-plugin
+  rails-assets-ihover
   rails-assets-normalize-scss
   rails_12factor
   rb-fsevent
