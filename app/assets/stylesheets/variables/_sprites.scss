@@ -1,50 +1,68 @@
 // Generated automatically via Grunt, do not edit manually!
 
 $sprite-size: (
-  width:   731px,
-  height:  453px
+  width:   984px,
+  height:  568px
 );
 
 $sprite-images: (
   40k: (
-    x:             481px,
-    y:             321px,
+    x:             619px,
+    y:             456px,
     width:         180px,
     height:        48px
   ),
+  7gr: (
+    x:             737px,
+    y:             160px,
+    width:         150px,
+    height:        104px
+  ),
   alitalia: (
-    x:             581px,
-    y:             372px,
+    x:             787px,
+    y:             285px,
     width:         97px,
     height:        19px
   ),
   arrow--down: (
-    x:             481px,
-    y:             64px,
+    x:             890px,
+    y:             160px,
     width:         50px,
     height:        50px
   ),
   arrow--left: (
-    x:             695px,
-    y:             117px,
+    x:             960px,
+    y:             160px,
     width:         14px,
     height:        25px
   ),
   arrow--right: (
-    x:             717px,
-    y:             64px,
+    x:             943px,
+    y:             160px,
     width:         14px,
     height:        25px
   ),
-  cw: (
+  benetton: (
     x:             481px,
-    y:             219px,
+    y:             0px,
+    width:         503px,
+    height:        157px
+  ),
+  bio--oil: (
+    x:             609px,
+    y:             395px,
+    width:         150px,
+    height:        50px
+  ),
+  cw: (
+    x:             762px,
+    y:             395px,
     width:         180px,
     height:        48px
   ),
   emma: (
-    x:             481px,
-    y:             270px,
+    x:             253px,
+    y:             456px,
     width:         180px,
     height:        48px
   ),
@@ -55,16 +73,34 @@ $sprite-images: (
     height:        200px
   ),
   exlibris: (
-    x:             481px,
-    y:             117px,
+    x:             802px,
+    y:             456px,
     width:         180px,
     height:        48px
   ),
+  giravolte: (
+    x:             481px,
+    y:             160px,
+    width:         150px,
+    height:        150px
+  ),
+  hitany: (
+    x:             623px,
+    y:             520px,
+    width:         100px,
+    height:        38px
+  ),
   ibt15: (
-    x:             534px,
-    y:             64px,
+    x:             436px,
+    y:             456px,
     width:         180px,
     height:        48px
+  ),
+  ing: (
+    x:             726px,
+    y:             520px,
+    width:         150px,
+    height:        38px
   ),
   learning: (
     x:             203px,
@@ -72,17 +108,23 @@ $sprite-images: (
     width:         200px,
     height:        200px
   ),
-  logo: (
+  lg: (
     x:             481px,
-    y:             0px,
+    y:             395px,
+    width:         125px,
+    height:        50px
+  ),
+  logo: (
+    x:             0px,
+    y:             456px,
     width:         250px,
     height:        61px
   ),
   napisan: (
-    x:             664px,
-    y:             117px,
-    width:         28px,
-    height:        27px
+    x:             634px,
+    y:             160px,
+    width:         100px,
+    height:        122px
   ),
   one: (
     x:             393px,
@@ -90,35 +132,65 @@ $sprite-images: (
     width:         85px,
     height:        250px
   ),
+  pc: (
+    x:             826px,
+    y:             313px,
+    width:         100px,
+    height:        57px
+  ),
+  q8: (
+    x:             333px,
+    y:             520px,
+    width:         150px,
+    height:        46px
+  ),
   sodexo: (
-    x:             481px,
-    y:             372px,
-    width:         97px,
-    height:        19px
+    x:             0px,
+    y:             520px,
+    width:         147px,
+    height:        48px
   ),
   store: (
-    x:             481px,
-    y:             168px,
+    x:             150px,
+    y:             520px,
     width:         180px,
     height:        48px
   ),
   three: (
-    x:             151px,
+    x:             0px,
     y:             0px,
     width:         239px,
     height:        250px
   ),
+  totalerg: (
+    x:             634px,
+    y:             285px,
+    width:         150px,
+    height:        25px
+  ),
+  tucano: (
+    x:             481px,
+    y:             313px,
+    width:         150px,
+    height:        79px
+  ),
   two: (
-    x:             0px,
+    x:             242px,
     y:             0px,
     width:         148px,
     height:        250px
   ),
+  unicredit--factoring: (
+    x:             634px,
+    y:             313px,
+    width:         189px,
+    height:        72px
+  ),
   unicredit: (
-    x:             481px,
-    y:             394px,
-    width:         97px,
-    height:        19px
+    x:             486px,
+    y:             520px,
+    width:         134px,
+    height:        39px
   )
 );
 
