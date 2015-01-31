@@ -6,6 +6,12 @@
 
 .project__item
   width: 25%
+  transition: all .2s ease-in-out
+  &:hover
+    transform: scale(1.1)
+    z-index: 100
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)
+
   .project__content
     width: 70%
     padding: 20% 2% 5% 5%
@@ -13,6 +19,9 @@
       margin-top: 10px    
   +at-breakpoint(lte-lap)
     width: 50%
+
+.hitany, .tucano, .woldfort
+  background-color: white
 
 .alitalia
   background-color: #b2d1c5
@@ -54,3 +63,17 @@
 .lg
   background-color: #c2004d
   color: white
+
+.benetton
+  background-color: #23a74c
+  color: white  
+
+.monurelle
+  background-color: #cc91c8
+  color: white
+
+.edreams
+  background-color: #00259c
+  color: white  
+.tonno-nostromo
+  background-color: #fff61a 

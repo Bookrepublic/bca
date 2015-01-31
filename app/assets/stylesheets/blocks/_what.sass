@@ -6,3 +6,51 @@
   +at-breakpoint(lte-lap)
     background-position: top center
 
+nav a
+  position: relative
+  display: inline-block
+  margin: 15px 25px
+  outline: none
+  color: $bca-primary
+  text-decoration: none
+  text-transform: uppercase
+  letter-spacing: 1px
+  font-weight: 400
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3)
+  font-size: 1.35em
+  &:hover, &:focus
+    outline: none
+
+// Effect 1: Brackets
+
+.cl-effect-1 a
+  &::before, &::after
+    display: inline-block
+    opacity: 0
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s
+    transition: transform 0.3s, opacity 0.2s
+  &::before
+    margin-right: 10px
+    content: '['
+    -webkit-transform: translateX(20px)
+    -moz-transform: translateX(20px)
+    transform: translateX(20px)
+  &::after
+    margin-left: 10px
+    content: ']'
+    -webkit-transform: translateX(-20px)
+    -moz-transform: translateX(-20px)
+    transform: translateX(-20px)
+  &:hover
+    &::before, &::after
+      opacity: 1
+      -webkit-transform: translateX(0px)
+      -moz-transform: translateX(0px)
+      transform: translateX(0px)
+  &:focus
+    &::before, &::after
+      opacity: 1
+      -webkit-transform: translateX(0px)
+      -moz-transform: translateX(0px)
+      transform: translateX(0px)
