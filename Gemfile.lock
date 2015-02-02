@@ -271,6 +271,7 @@ GEM
       sprockets-rails (~> 2.0)
     rails-assets-bigSlide (0.5.1)
     rails-assets-daviferreira--medium-editor (2.0.0)
+    rails-assets-fontawesome (4.3.0)
     rails-assets-headroom.js (0.7.0)
     rails-assets-iacquire-medium-editor-insert-plugin (0.4.0)
       rails-assets-jquery (>= 1.9.0, < 2.0.4)
@@ -442,6 +443,7 @@ DEPENDENCIES
   rails (= 4.1.8)
   rails-assets-bigSlide
   rails-assets-daviferreira--medium-editor
+  rails-assets-fontawesome
   rails-assets-headroom.js
   rails-assets-iacquire-medium-editor-insert-plugin
   rails-assets-normalize-scss
