@@ -35,8 +35,6 @@ gem 'rails-assets-iacquire-medium-editor-insert-plugin'
 gem 'slick_rails'
 gem 'rails-assets-headroom.js'
 gem 'rails-assets-bigSlide'
-gem 'rails-assets-fontawesome'
-
 
 group :development do
   gem "bundler-audit"
