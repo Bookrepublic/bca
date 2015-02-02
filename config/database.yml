@@ -7,6 +7,10 @@ development: &default
   pool: 2
   timeout: 5000
 
+production:
+  <<: *default
+  database: bca_test
+
 test:
   <<: *default
   database: bca_test
