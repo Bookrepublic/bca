@@ -1,30 +1,28 @@
-= render 'shared/comingsoon'
+/ = render 'shared/comingsoon'
 
-/ = render 'shared/hero'
+= render 'shared/hero'
 
-/ = render 'shared/what'
+= render 'shared/what'
 
-/ = render 'shared/project'
+= render 'shared/project'
 
-/ = render 'shared/events'
+= render 'shared/events'
 
-/ = render 'shared/about'
+= render 'shared/about'
 
-/ = render 'shared/team'
+= render 'shared/team'
 
-/ = render 'shared/contact'
+= render 'shared/contact'
 
 
-/ .hero--beta
-/   .wrap
-/     .grid
-/       .grid__item.width-6-12
-
-/       .grid__item.width-6-12
-/         ul.nav--dots
-/           =link_to 'WHAT', '#what', onclick: "$('#what').animatescroll();" 
-/           =link_to 'CLIENTS & PROJECTS', '#clients-projects', onclick: "$('#clients-projects').animatescroll();" 
-/           =link_to 'EVENTS', '#events', onclick: "$('#events').animatescroll();" 
-/           =link_to 'ABOUT', '#about', onclick: "$('#about').animatescroll();" 
-/           =link_to 'TEAM', '#team', onclick: "$('#team').animatescroll();" 
-/           =link_to 'CONTACTS', '#contacts', onclick: "$('#contacts').animatescroll();" 
+.footer
+  .wrap
+    .grid
+      .grid__item.width-12-12
+        nav.cl-effect-1
+          a href="#what" WHAT 
+          a href="#clients-projects" CLIENTS & PROJECTS 
+          a href="#events" EVENTS 
+          a href="#about" ABOUT 
+          a href="#team" TEAM 
+          a href="#contacts" CONTACTS 
