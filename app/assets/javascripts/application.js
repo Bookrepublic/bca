@@ -31,7 +31,9 @@ $(document).ready(function(){
   $('.slider').slick({
     dots: true,
     infinite: true,
-    speed: 200,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 400,
     fade: true,
     cssEase: 'linear'
   });
