@@ -29,6 +29,11 @@ $(function () {
 
 $(document).ready(function(){
   $('.slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 200,
+    fade: true,
+    cssEase: 'linear'
   });
 });
 

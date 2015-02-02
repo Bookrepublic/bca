@@ -6,6 +6,7 @@
         .grid
           .grid__item.width-12-12.space--bottom-3
             .grid__item--head         
+                br
                 h2 WHAT
             .grid__item--text                           
                 p
@@ -43,7 +44,7 @@
       .hero__body
         .hero__body__inner
           .grid__item.width-12-12.desk-5-12        
-            img src="ideation.jpg" /
+            img src="pasta.jpg" /
 
           .grid__item.width-12-12.desk-5-12        
             .grid__item--head         
@@ -335,10 +336,10 @@
             | un’esperienza consolidata nel garantire alla community di oltre 250.000 lettori di Bookrepublic.it proposte e percorsi di lettura innovativi;
         
       .grid__item.desk-4-12.text--center 
-        .sprite--exlibris
+        .sprite--reader
         .grid__item--text                          
           p 
-            | Store
+            | Reader
 
       .grid__item.desk-4-12.text--center 
         .sprite--exlibris
@@ -360,16 +361,16 @@
             | una expertise unica nella formazione a manager ed esperti di marketing e comunicazione nell’affrontare consapevolmente la post-advertising era, grazie a workshop ricorrenti, “Content Workers”, e a sessioni di training costruite su misura per diverse aziende clienti.
 
       .grid__item.desk-4-12.text--center 
-        .sprite--40k
+        .sprite--ce
         .grid__item--text                          
           p 
             | tre case editrici native digitali proprietarie, Emma Books, LDS e 40K, che rispondono in modo differenziato alle nuove sfide dei contenuti fruibili in formato digital;
 
 
   .wrap
-    .grid.space--bottom-3
-      .grid__item.width-12-12.text--center 
-        =link_to('#events', onclick: "$('#events').animatescroll();") do
+    .grid
+      .grid__item.width-12-12.text--center.down 
+        =link_to('#clients-projects', onclick: "$('#clients-projects').animatescroll();") do
           .sprite--arrow--down 
 
 
