@@ -4,12 +4,26 @@
 //= require iacquire-medium-editor-insert-plugin
 //= require slick
 //= require bigSlide
+//= require animatescroll
 //= require headroom.js
 //= require_tree .
 
+
 $(document).ready(function() {
-  $(".header").headroom({});
+  var header = $(".header").headroom({});
+
+  $(".header__text__item").on('click', function(event) {
+      event.preventDefault();
+      var href = $(this).children().attr("href");
+      $(href).animatescroll({
+        onScrollEnd:function(){
+          $('html, body').animate({ scrollTop: $(href).offset().top + 1 }, -1);
+        }
+      });
+  })
+
 });
+
 
 var editor = new MediumEditor('.editable');
 $('.editable').bind('input propertychange', function() {
@@ -28,17 +42,23 @@ $(function () {
 });
 
 $(document).ready(function(){
-  $('.slider').slick({
+  var slick_slider = $('.slider').slick({
     dots: true,
     infinite: true,
 /*    autoplay: true,
     autoplaySpeed: 2000,
     speed: 400,
-    adaptiveHeight: true,       
+        adaptiveHeight: true,       
 */
     fade: true,
     cssEase: 'linear'
   });
+
+  $(".menu_slick").click(function(event) {
+      event.preventDefault();
+      var num_slide = $(this).attr("href");
+      slick_slider.slickGoTo(num_slide);
+  })
 });
 
 $(document).ready(function() {

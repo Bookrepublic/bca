@@ -36,6 +36,7 @@ gem 'slick_rails'
 gem 'rails-assets-headroom.js'
 gem 'rails-assets-bigSlide'
 gem 'rails-assets-fontawesome'
+gem 'rails-assets-animatescroll'
 
 group :development do
   gem "bundler-audit"
