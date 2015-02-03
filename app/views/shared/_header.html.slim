@@ -1,6 +1,9 @@
 .header
   .wrap
+  
     .header__hamburger
+      =link_to('#home', onclick: "$('#home').animatescroll();") do
+        .sprite--logo-small      
       a.menu-link.icon--hamburger href="#menu" 
         
     .header__inner
