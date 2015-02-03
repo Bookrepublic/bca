@@ -33,9 +33,10 @@ $(document).ready(function(){
     infinite: true,
 /*    autoplay: true,
     autoplaySpeed: 2000,
-    speed: 400,*/
-    fade: true,
+    speed: 400,
     adaptiveHeight: true,       
+*/
+    fade: true,
     cssEase: 'linear'
   });
 });
