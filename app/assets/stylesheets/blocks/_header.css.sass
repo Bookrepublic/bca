@@ -30,7 +30,7 @@
 
       .header__text__item
         display: inline-block
-        padding-left: 2rem
+        padding-left: 1rem
         text-align: center
         a
           color: $bca-primary
@@ -48,7 +48,15 @@
 .headroom--unpinned
   transform: translateY(-100%)
 
-.header__hamburger, .header__hamburger-logo
+.header__hamburger-logo
+  float: left
+  display: none
+
+  +at-breakpoint(lte-lap)
+    display: table-cell
+
+
+.header__hamburger
   vertical-align: middle
   font-size: $base-font-size * 1.8
   float: right
