@@ -1,10 +1,10 @@
 .hero__what
   @extend .hero--beta
-  background-image: image-url('what.jpg')   
+  background-image: image-url('what-mobile.jpg')   
   background-position: top center
 
-  +at-breakpoint(lte-lap)
-    background-image: image-url('what-mobile.jpg')   
+  +at-breakpoint(lap)
+    background-image: image-url('what.jpg')   
     background-position: top center
 
 nav a
