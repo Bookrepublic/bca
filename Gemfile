@@ -8,6 +8,7 @@ gem "delayed_job_active_record"
 gem "email_validator"
 gem "flutie"
 gem "high_voltage"
+gem 'rails-i18n'
 gem "i18n-tasks"
 gem "jquery-rails"
 gem "newrelic_rpm"
