@@ -1,0 +1,21 @@
+it:
+  date:
+    formats:
+      default:
+        "%m/%d/%Y"
+      with_weekday:
+        "%a %m/%d/%y"
+
+  time:
+    formats:
+      default:
+        "%a, %b %-d, %Y at %r"
+      date:
+        "%b %-d, %Y"
+      short:
+        "%B %d"
+
+  titles:
+    application: Bca
+
+  what_html: Realizziamo <strong>contenuti</strong> attraverso l'attenta definizione della <strong>content strategy</strong> da applicare a progetti studiati <strong>ad hoc</strong> sulle esigenze del cliente, garantendone la delivery e <strong>lavorando in modo sinergico con gli altri partner del cliente</strong>, tra cui centri media, agenzie creative, social, SEO e PR.
