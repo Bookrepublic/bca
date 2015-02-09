@@ -1,8 +1,8 @@
 en:
   button_html:
-    <div class="header__text__item__lang_button"><a href="http://www.thecontentagency.it"> ITA </a></div>
+    <div class="header__text__item__lang_button"><a href="/"> ITA </a></div>
   panel-lang_html:
-    <a class="lang" href="http://www.thecontentagency.it/"> ITALIANO</a>
+    <a class="lang" href="/"> ITALIANO</a>
 
   date:
     formats:
