@@ -1,5 +1,6 @@
 #menu.panel role="navigation"
   ul
+    li = t ('panel-lang_html')  
     li
       =link_to('#home', onclick: "$('#home').animatescroll();") do
         .sprite--logo-small
@@ -17,4 +18,5 @@
       =link_to 'TEAM', '#team', onclick: "$('#team').animatescroll();"
     li      
       =link_to 'CONTACTS', '#contacts', onclick: "$('#contacts').animatescroll();"
+
 
