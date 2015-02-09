@@ -2,7 +2,7 @@ it:
   button_html:
     <div class="header__text__item__lang_button"><a href="http://www.thecontentagency.it/en"> EN</a></div>
   panel-lang_html:
-    <a class="lang" href="http://www.thecontentagency.it/en"> EN</a>
+    <a class="lang" href="http://www.thecontentagency.it/en"> English version</a>
 
   date:
     formats:
