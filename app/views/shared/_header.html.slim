@@ -1,6 +1,6 @@
 .header
   .wrap
-    .grid
+    .grid.hidden--on-desk
       .grid__item.width-6-12
         .header__hamburger-logo   
           =link_to('#home') do
@@ -22,3 +22,7 @@
           .header__text__item =link_to 'ABOUT', '#about'
           .header__text__item =link_to 'TEAM', '#team'
           .header__text__item =link_to 'CONTACTS', '#contacts'
+          .header__text__item
+            .header__text__item__buy_button =link_to 'EN', 'http://www.thecontentagency.it/en'
+
+

@@ -10,27 +10,7 @@
                 br
                 h2 WHAT
             .grid__item--text                           
-                p = t('what_html')
-                p
-                  | Bookrepublic offre ai suoi clienti competenze specifiche di 
-                  strong creazione 
-                  | e di 
-                  strong publishing di contenuti 
-                  | su qualsiasi piattaforma digitale e una rete di 
-                  strong relazioni con autori e agenti letterari 
-                  | che permettono di produrre contenuti d’interesse e qualit&agrave; per brand e aziende nei settori più variegati.
-                         
-                p
-                  strong The Content Agency 
-                  | &egrave; il valore aggiunto che 
-                  strong trasforma una relazione fredda
-                  |, basata su informazioni, 
-                  br
-                  strong in una relazione calda
-                  |, basata su storie e tecnologia. 
-                  br
-                  strong I contenuti sono la nostra passione 
-                  | e lavoriamo per garantirne la qualit&agrave; presidiando le seguenti attivit&agrave;:
+                = t('what_html')
                 
         .grid
           .grid__item.width-12-12
@@ -55,7 +35,7 @@
         .grid__item.width-8-12.desk-6-12                  
           .grid__item--text                                
             p.dark--font.text--left
-              | Il contenuto deve avere uno scopo concreto e misurabile. Content marketing non significa vendita, significa coinvolgimento del target di riferimento grazie a linguaggi ad hoc, rimodulati a seconda dei devices e dei canali utilizzati. Significa aumentare la brand awareness e influenzare il comportamento dei consumatori o dei prospect. Poniamo particolare attenzione alla target audience &amp; consumer journey. Lavoreremo insieme a voi in modo da costruire una content strategy coerente, mai auto-referenziale e focalizzata sul target di riferimento, in ogni momento del consumer journey.
+              = t ('content-strategy_html')
 
   .slider__content data-slidr='two'
     .wrap
@@ -70,7 +50,7 @@
         .grid__item.width-8-12.desk-6-12                  
           .grid__item--text                                
             p.dark--font.text--left
-              | Il nostro team editoriale lavorer&agrave; insieme a voi e ai vostri partner (agenzie creative, social, media, pr) per trovare idee di contenuto che possano connettere brand, obiettivi e target audience. Il contenuto sar&agrave; strutturato per il target di riferimento e per i relativi canali digitali utilizzati.              
+              = t ('content-ideation_html')
 
   .slider__content data-slidr='three'
     .wrap
@@ -85,15 +65,14 @@
         .grid__item.width-8-12.desk-6-12                  
           .grid__item--text                                
             p.dark--font.text--left
-              | I nostri creativi amano produrre contenuti di valore. il nostro team è formato da scrittori, autori, fotografi, video maker, creativi, designer e sviluppatori. Lavoriamo in modo sinergico con tutte le agenzie coinvolte durante l'intero processo di produzione del contenuto (post, infografiche, video, contenuti interattivi, blog). 
-
+              = t ('content-production_html')
 
   .slider__content data-slidr='four'
     .wrap
       .grid--center
         .grid__item.width-8-12.desk-12-12        
           .grid__item--head         
-            h2.text--center  Content Distribution         
+            h2.text--center  Content Distribution
       .grid--center
         .grid__item.width-8-12.desk-6-12        
           img src="distribution.png" /
@@ -101,7 +80,7 @@
         .grid__item.width-8-12.desk-6-12                  
           .grid__item--text                                
             p.dark--font.text--left
-              | Grazie al nostro network siamo abili nel connettere brand e content tramite i key influencer digitali, giornalisti, blogger e partner editoriali in modo da promuovere e massimizzare awareness, engagement e WOM. Forniamo consulenza sulla social promotion più efficace rispetto agli obiettivi dati, focalizzandoci su kpi’s e metriche relazionali, quali/quantitative. 
+              = t ('content-distribution_html')
 
   .slider__content data-slidr='four'
     .wrap
@@ -116,9 +95,7 @@
         .grid__item.width-8-12.desk-6-12                  
           .grid__item--text                                
             p.dark--font.text--left
-              | Abbiamo sviluppato competenze mirate alla formazione dedicata a manager ed esperti di marketing e comunicazione per affrontare consapevolmente l’attuale era post-advertising. 
-            p.dark--font.text--left
-              | Con i Content Workers (workshops per managers) e IfBookThen (la conferenza dedicata al digital storytelling) guardiamo al futuro dell'innovazione culturale.               
+              = t ('content-training_html')
 
 .scroll-center
   =link_to('#ournetwork', onclick: "$('#ournetwork').animatescroll();") do
@@ -135,72 +112,40 @@
             .grid__item--head.text--center         
                 h2 OUR NETWORK
             .grid__item--text.text--center                           
-                p
-                  strong Bookrepublic, The Content Agency 
-                  | fa parte di un solido 
-                  strong network editoriale e autoriale 
-                  | costituito da:
+              = t ('network_html')
 
         .grid
           .grid__item.desk-4-12.text--center.space--top-3
             .sprite--store
             .grid__item--text                          
-              p 
-                | Un’esperienza consolidata nel garantire alla community di 
-                strong oltre 250.000 lettori 
-                | di 
-                a href="https://www.bookrepublic.it/" target="_blank" Bookrepublic.it 
-                | proposte e percorsi di lettura innovativi.
+              = t ('network-store_html')
             
           .grid__item.desk-4-12.text--center.space--top-3 
             .sprite--reader
-            .grid__item--text                          
-              p 
-                | Una 
-                strong nuova esperienza di lettura digitale: 
-                |la propria biblioteca digitale sempre disponibile su qualsiasi dispositivo.
-
+            .grid__item--text 
+              = t ('network-reader_html')                         
 
           .grid__item.desk-4-12.text--center.space--top-3  
             .sprite--exlibris
             .grid__item--text                          
-              p 
-                strong Più di 350 editori indipendenti 
-                | distribuiti direttamente da 
-                a href="https://exlibris.bookrepublic.it/" target="_blank" Bookrepublic Exlibris, 
-                | uno dei principali poli distributivi digitali italiani di ebook, 
-                strong a cui sono sono collegate più di 60 librerie nazionali e internazionali.
+              = t ('network-exlibris_html')                         
 
         .grid.space--top-3.space--bottom-3
           .grid__item.desk-4-12.text--center.space--top-3
             .sprite--ibt15
-            .grid__item--text                          
-              p 
-                | Un 
-                strong network internazionale 
-                | di esperti di comunicazione digitale e storytelling che si danno appuntamento ogni anno a 
-                a href="http://www.ifbookthen.com/" target="_blank" IfBookThen
-                |, la conferenza internazionale dedicata al futuro dell'innovazione culturale
+            .grid__item--text 
+              = t ('network-ibt_html')                        
 
           .grid__item.desk-4-12.text--center.space--top-3  
             .sprite--cw
-            .grid__item--text                          
-              p 
-                | Alta formazione dedicata a manager ed esperti di marketing e comunicazione per affrontare consapevolmente la post-advertising era.  
-                a href="http://www.ifbookthen.com/" target="_blank" “Content Workers” 
-                |, sono workshop e sessioni di training costruite su misura per le aziende.
-
+            .grid__item--text 
+              = t ('network-cw_html')                        
+                         
           .grid__item.desk-4-12.text--center.space--top-3  
             .sprite--ce
-            .grid__item--text                          
-              p 
-                | Tre case editrici native digitali proprietarie, 
-                a href="http://www.emmabooks.com/" target="_blank"Emma Books,
-                | LDS e
-                a href="http://40k.it/" target="_blank" 40K, 
-                | che rispondono in modo differenziato alle nuove sfide dei contenuti fruibili in formato digital.
-
-
+            .grid__item--text 
+              = t ('network-ce_html')                        
+          
   .wrap
     .grid
       .grid__item.width-12-12.text--center.down 
