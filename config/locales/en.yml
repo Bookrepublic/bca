@@ -23,12 +23,12 @@ en:
   titles:
     application: Bca
 
-  what_html: <p>Our <strong>content</strong> is created to precisely match  the <strong>content strategy</strong> of each tailor made project and is planned to meet the client's requirements through guaranteed delivery and synergy  with the client's <strong>partners</strong> such as media centres, creative agencies, social media and PR.</p>
+  what_html: <p>Our <strong>content</strong> is created to precisely match  the <strong>content strategy</strong> of each tailor made project and is planned to meet the client's requirements through guaranteed delivery and synergy  with the client's <strong>partners</strong> such as media centres, creative agencies, social media, SEO and PR agencies</p>
 
     <p>Bookrepublic offers its clients specific expertise in <strong>content creation and publishing</strong> across all digital platforms and a <strong>network of authors and literary agents</strong> that enables us to produce engaging quality content for brands and companies from a range of different industries.
     </p>
 
-    <p><strong> The Content Agency</strong> is the added value that <strong>turns a cold relationship</strong>, based on information, into a warm relationship, based on stories and technology.
+    <p><strong> The Content Agency</strong> is the added value that <strong>turns a cold relationship</strong>, based on information, <strong>into a warm relationship</strong>, based on stories and technology.
       <br>
       <strong>Content is our passion</strong> and we work to guarantee its quality in the following areas&colon; 
     </p>
@@ -62,11 +62,11 @@ en:
     </p>
 
   network-store_html:
-    <p> Extensive experience on how to guarantee <strong>the 250,000 readers</strong> of <a href="https://www.bookrepublic.it/" target="_blank">bookrepublic.it</a> innovative reading trajectories and suggestions
+    <p> Extensive experience on how to guarantee <strong>the 250,000 readers</strong> of <a href="https://www.bookrepublic.it/" target="_blank">bookrepublic.it</a> innovative reading trajectories and suggestions.
     </p>
 
   network-reader_html:
-    <p>A new digital reading experience&colon; your own digital library always available on any device.</p>
+    <p><strong>A new digital reading experience</strong>&colon; your own digital library always available on any device.</p>
 
   network-exlibris_html:  
     <p><strong>More than 350 independent</strong> publishers directly distributed by <a href="https://exlibris.bookrepublic.it/" target="_blank"> Bookrepublic Exlibris</a>, one of the main centre of eBooks’ distribution in Italy, <strong>linked to more than 60 national and international bookshops.</strong>
@@ -75,9 +75,7 @@ en:
 
   network-ibt_html:
     <p> 
-      An <strong>international network</strong> of specialists in digital communication and storytelling,  whose hub  is the annual international conference <a href="http://www.ifbookthen.com/" target="_blank"> IfBookThen</a>, now in its 5th edition
-
-
+      An <strong>international network</strong> of specialists in digital communication and storytelling,  whose hub  is the annual international conference <a href="http://www.ifbookthen.com/" target="_blank"> IfBookThen</a>, now in its 5th edition.
     </p>
 
   network-cw_html:
@@ -87,7 +85,7 @@ en:
 
   network-ce_html:
     <p>
-      Three proprietary digital publishing houses from Italy,<a href="http://www.emmabooks.com/" target="_blank">Emma Books</a>, LDS e <a href="http://40k.it/" target="_blank"> 40K</a>, that react to the new challenges of usable contents in digital format with a specialised approach
+      Three proprietary digital publishing houses from Italy,<a href="http://www.emmabooks.com/" target="_blank">Emma Books</a>, LDS e <a href="http://40k.it/" target="_blank"> 40K</a>, that react to the new challenges of usable contents in digital format with a specialised approach.
     </p>
 
   c-alitalia_html:

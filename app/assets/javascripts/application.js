@@ -12,7 +12,7 @@
 $(document).ready(function() {
   var header = $(".header").headroom({});
 
-  $(".header__text__item, .cl-effect-a").on('click', function(event) {
+  $(".Nav__animatescroll, .cl-effect-1").on('click', function(event) {
       event.preventDefault();
       var href = $(this).children().attr("href");
       $(href).animatescroll({
