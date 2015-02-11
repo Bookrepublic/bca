@@ -23,36 +23,42 @@ en:
   titles:
     application: Bca
 
-  what_html: <p>Our digital <strong>content</strong> is created to precisely match  the <strong>content strategy</strong> of each tailor made project and is planned to meet the client's requirements through guaranteed delivery and <strong>synergy with the client's partners</strong> such as media centres, creative agencies, social media and PR.</p>
+  what_html: <p>Our <strong>digital content</strong> is created to precisely match  the <strong>content strategy</strong> of each tailor made project and is planned to meet the client's requirements through guaranteed delivery and synergy  with the client's <strong>partners</strong> such as media centres, creative agencies, social media and PR.</p>
 
-    <p>Bookrepublic offers its clients specific expertise in content <strong>creation</strong> and <stong>publishing across all digital platforms</strong> and a network of authors and literary agents that enables us to produce engaging quality content for brands and companies from a range of different industries.
+    <p>Bookrepublic offers its clients specific expertise in <strong>content creation and publishing</strong> across all digital platforms and a <strong>network< of authors and literary agents</strong> that enables us to produce engaging quality content for brands and companies from a range of different industries.
     </p>
 
-    <p style="color:red;"><strong> The Content Agency</strong> &egrave; il valore aggiunto che <strong> trasforma una relazione fredda</strong>, basata su informazioni, <br><strong> in una relazione calda</strong>, basata su storie e tecnologia. <br><strong> I contenuti sono la nostra passione </strong> e lavoriamo per garantirne la qualit&agrave; presidiando le seguenti attivit&agrave;&colon;
+    <p><strong> The Content Agency</strong> is the added value that <strong>turns a cold relationship</strong>, based on information, into a warm relationship, based on stories and technology.
+      <br>
+      <strong>Content is our passion</strong> and we work to guarantee its quality in the following areas&colon; 
     </p>
 
-  content-strategy_html: <p style="color:red;">Il contenuto deve avere uno scopo concreto e misurabile. Content marketing non significa vendita, significa coinvolgimento del target di riferimento grazie a linguaggi ad hoc, rimodulati a seconda dei devices e dei canali utilizzati. Significa aumentare la brand awareness e influenzare il comportamento dei consumatori o dei prospect. Poniamo particolare attenzione alla target audience &amp; consumer journey. Lavoreremo insieme a voi in modo da costruire una content strategy coerente, mai auto-referenziale e focalizzata sul target di riferimento, in ogni momento del consumer journey.
+  content-strategy_html: 
+    <p>Content must have a concrete purpose that can be measured. Content marketing doesn’t mean selling, it means involving the benchmark target with tailor-made languages, formulated in accordance with the devices and the channels used.  It means increasing brand awareness and influencing consumers’ or prospect consumers’ behaviour. We place particular attention on target audience & consumer journey. We will work with you in order to build a content strategy that is coherent but never self-referential and focused on the benchmark target during every step of the consumer journey.
     </p>
 
   content-ideation_html:
-    <p style="color:red;">Il nostro team editoriale lavorer&agrave; insieme a voi e ai vostri partner (agenzie creative, social, media, pr) per trovare idee di contenuto che possano connettere brand, obiettivi e target audience. Il contenuto sar&agrave; strutturato per il target di riferimento e per i relativi canali digitali utilizzati.
+    <p>Our creatives love to produce content of value. Our team comprises writers, authors, photographers, video makers, creatives, designers and developers.  We work in synergy with all the agencies involved during the whole process of content production (posts, infographics, videos, interactive content and blogs).
     </p>
 
   content-production_html:
-    <p style="color:red;">I nostri creativi amano produrre contenuti di valore. il nostro team è formato da scrittori, autori, fotografi, video maker, creativi, designer e sviluppatori. Lavoriamo in modo sinergico con tutte le agenzie coinvolte durante l’intero processo di produzione del contenuto (post, infografiche, video, contenuti interattivi, blog).
+    <p>I nostri creativi amano produrre contenuti di valore. il nostro team è formato da scrittori, autori, fotografi, video maker, creativi, designer e sviluppatori. Lavoriamo in modo sinergico con tutte le agenzie coinvolte durante l’intero processo di produzione del contenuto (post, infografiche, video, contenuti interattivi, blog).
     </p>
 
   content-distribution_html:
-    <p style="color:red;">Grazie al nostro network siamo abili nel connettere brand e content tramite i key influencer digitali, giornalisti, blogger e partner editoriali in modo da promuovere e massimizzare awareness, engagement e WOM. Forniamo consulenza sulla social promotion pi&ugrave efficace rispetto agli obiettivi dati, focalizzandoci su kpi’s e metriche relazionali, quali/quantitative.
+    <p>Thanks to our network, we are able to connect brand and content through key digital influencers, journalists, bloggers and publishing partners so as to promote and maximise awareness, engagement and WOM. We provide professional advice on the most effective social promotion with regard to the given objectives, focusing on KPIs and qualitative/quantitative relational metrics. 
     </p>
 
   content-training_html:
-    <p style="color:red;">Abbiamo sviluppato competenze mirate alla formazione dedicata a manager ed esperti di marketing e comunicazione per affrontare consapevolmente l’attuale era post-advertising. 
-    Con i Content Workers (workshops per managers) e IfBookThen (la conferenza dedicata al digital storytelling) guardiamo al futuro dell’innovazione culturale.
+    <p>We have developed expertise dedicated to training managers as well as communication and marketing experts on how to consciously tackle the current post-advertising era.
+    </p>
+    <p>
+      With Content Workers (workshops for managers) and ifBookThen (the conference on digital storytelling) we look towards the future of cultural innovation. 
+
     </p>
 
   network_html:
-    <p><strong>Bookrepublic Content Agency</strong> is part of a well established <strong>network of publishers and authors</strong> comprised of&colon;
+    <p>The Content Agency is part of a well-established network of publishers, authors and readers comprised of&colon;
     </p>
 
   network-store_html:
@@ -172,7 +178,7 @@ en:
     </p>
 
   events_html:
-     <p style="color:red;"><strong> Bookrepublic, The Content Agency</strong> organizza ogni anno <strong> IfBookThen</strong>, la conferenza internazionale sul digital storytelling, giunta alla sua quinta edizione, oltre a workshop ed executive training <strong> con i pi&ugrave; noti esperti nazionali e internazionali di settore</strong>, per accompagnare le aziende nell’era post-advertising.
+     <p>Every year <strong>Bookrepublic, The Content Agency</strong> organises <strong>IfBookThen</strong>, the international conference on digital storytelling that is now in its 5th edition, as well as workshops and executive training <strong>with the most famous national and international experts of the industry</strong>, to lead companies into the post-advertising era.
      </p>
 
   about_html:   
@@ -197,13 +203,13 @@ en:
 
   about-3_html:
     <p class="dark--font text--left">
-      In 2013 “The Content Agency” by Bookrepublic was born&colon; if it’s true that every company tends to act like a medium-sized company online and that we are all our own editors, then content is no longer a cost but an asset and the quality of the content that a company is able to create in order to spread their brand is essential to the successful pursuit of their business objectives.
+      In 2013 “The Content Agency” by Bookrepublic was born&colon; if it’s true that every company tends to act like a medium company online and that we are all our own editors, then content is no longer a cost but an asset and the quality of the content that a company is able to create in order to spread their brand is essential to the successful pursuit of their business objectives.
     </p>
     <p class="dark--font text--left">
       “The Content Agency” offers its clients specific expertise in content creation and publishing across all digital platforms and a network of authors and literary agents that enables us to produce quality content for brands and companies from a range of different industries. 
     </p> 
 
   team_html:
-    <p style="color:red;">
-      Ci sono delle imprese per le quali un accurato disordine &egrave; il metodo giusto. <br><stong> Herman Melville</strong>
+    <p>
+      "There are some enterprises in which a careful disorderliness is the true method."<br> <strong>Herman Melville</strong>
     </p>
