@@ -23,9 +23,9 @@ en:
   titles:
     application: Bca
 
-  what_html: <p>Our <strong>digital content</strong> is created to precisely match  the <strong>content strategy</strong> of each tailor made project and is planned to meet the client's requirements through guaranteed delivery and synergy  with the client's <strong>partners</strong> such as media centres, creative agencies, social media and PR.</p>
+  what_html: <p>Our <strong>content</strong> is created to precisely match  the <strong>content strategy</strong> of each tailor made project and is planned to meet the client's requirements through guaranteed delivery and synergy  with the client's <strong>partners</strong> such as media centres, creative agencies, social media and PR.</p>
 
-    <p>Bookrepublic offers its clients specific expertise in <strong>content creation and publishing</strong> across all digital platforms and a <strong>network< of authors and literary agents</strong> that enables us to produce engaging quality content for brands and companies from a range of different industries.
+    <p>Bookrepublic offers its clients specific expertise in <strong>content creation and publishing</strong> across all digital platforms and a <strong>network of authors and literary agents</strong> that enables us to produce engaging quality content for brands and companies from a range of different industries.
     </p>
 
     <p><strong> The Content Agency</strong> is the added value that <strong>turns a cold relationship</strong>, based on information, into a warm relationship, based on stories and technology.
@@ -42,7 +42,7 @@ en:
     </p>
 
   content-production_html:
-    <p>I nostri creativi amano produrre contenuti di valore. il nostro team è formato da scrittori, autori, fotografi, video maker, creativi, designer e sviluppatori. Lavoriamo in modo sinergico con tutte le agenzie coinvolte durante l’intero processo di produzione del contenuto (post, infografiche, video, contenuti interattivi, blog).
+    <p>Our creatives love to produce content of value. Our team comprises writers, authors, photographers, video makers, creatives, designers and developers.  We work in synergy with all the agencies involved during the whole process of content production (posts, infographics, videos, interactive content and blogs).
     </p>
 
   content-distribution_html:
@@ -66,8 +66,7 @@ en:
     </p>
 
   network-reader_html:
-    <p style="color:red;"> Una <strong> nuova esperienza di lettura digitale:</strong> la propria biblioteca digitale sempre disponibile su qualsiasi dispositivo.
-    </p>
+    <p>A new digital reading experience&colon; your own digital library always available on any device.</p>
 
   network-exlibris_html:  
     <p><strong>More than 350 independent</strong> publishers directly distributed by <a href="https://exlibris.bookrepublic.it/" target="_blank"> Bookrepublic Exlibris</a>, one of the main centre of eBooks’ distribution in Italy, <strong>linked to more than 60 national and international bookshops.</strong>
@@ -101,7 +100,7 @@ en:
 
   c-napisan_html:
     <p>
-      Bookrepublic was responsible for the publishing plan of the “Club Napisan” project dedicated to new mothers who, after logging in on www.napisan.it, were able to download more than 20.000 digital gifts in eBooks (and more) tailored to the needs of mothers and their children. 
+      Bookrepublic was responsible for the publishing plan of the “Club Napisan” project dedicated to new mothers who, after logging in on www.napisan.it, were able to download more than thousands of digital gifts in eBooks (and more) tailored to the needs of mothers and their children. 
     </p>
 
   c-sodexo_html:
@@ -203,13 +202,13 @@ en:
 
   about-3_html:
     <p class="dark--font text--left">
-      In 2013 “The Content Agency” by Bookrepublic was born&colon; if it’s true that every company tends to act like a medium company online and that we are all our own editors, then content is no longer a cost but an asset and the quality of the content that a company is able to create in order to spread their brand is essential to the successful pursuit of their business objectives.
+      In 2013 “The Content Agency” by Bookrepublic was born&colon; if it’s true that every company tends to act like a media company online and that we are all our own editors, then content is no longer a cost but an asset and the quality of the content that a company is able to create in order to spread their brand is essential to the successful pursuit of their business objectives.
     </p>
     <p class="dark--font text--left">
       “The Content Agency” offers its clients specific expertise in content creation and publishing across all digital platforms and a network of authors and literary agents that enables us to produce quality content for brands and companies from a range of different industries. 
     </p> 
 
   team_html:
-    <p>
+    <p class="white">
       "There are some enterprises in which a careful disorderliness is the true method."<br> <strong>Herman Melville</strong>
     </p>
