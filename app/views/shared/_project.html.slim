@@ -6,8 +6,13 @@
           h2 CLIENTS & PROJECTS
 
 
-.project.js-masonry data-masonry-options='{ "columnWidth": ".project__sizer", "itemSelector": ".project__item" }'
+.project.js-masonry data-masonry-options='{ "columnWidth": ".project__sizer", "itemSelector": ".project__item, .project__item--75" }'
   .project__sizer
+  .project__item--75.zambon
+    .project__content 
+      .sprite--zambon
+      = t ('c-zambon_html')
+      
   .project__item.alitalia
     .project__content 
       .sprite--alitalia
@@ -114,7 +119,4 @@
       .sprite--tonno-nostromo
       = t ('c-tonno-nostromo_html')
 
-  .project__item.zambon
-    .project__content 
-      .sprite--zambon
-      = t ('c-zambon_html')      
+      
