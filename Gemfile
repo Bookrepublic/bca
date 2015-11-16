@@ -31,13 +31,19 @@ gem 'aws-sdk'
 
 gem 'autoprefixer-rails'
 gem 'slim-rails'
-gem 'rails-assets-daviferreira--medium-editor'
-gem 'rails-assets-iacquire-medium-editor-insert-plugin'
 gem 'slick_rails'
-gem 'rails-assets-headroom.js'
-gem 'rails-assets-bigSlide'
-gem 'rails-assets-fontawesome'
-gem 'rails-assets-animatescroll'
+
+# Rails Assets
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-daviferreira--medium-editor'
+  gem 'rails-assets-iacquire-medium-editor-insert-plugin'
+  gem 'rails-assets-headroom.js'
+  gem 'rails-assets-bigSlide'
+  gem 'rails-assets-fontawesome'
+  gem 'rails-assets-animatescroll'
+  gem 'rails-assets-normalize-scss'
+end
 
 group :development do
   gem "bundler-audit"
@@ -73,9 +79,7 @@ group :test do
 end
 
 group :staging, :production do
-gem 'rails_12factor'
+  gem 'rails_12factor'
 end
-source 'https://rails-assets.org'
 
-gem 'rails-assets-normalize-scss'
 gem 'sass'

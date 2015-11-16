@@ -445,13 +445,13 @@ DEPENDENCIES
   rack-livereload
   rack-timeout
   rails (= 4.1.8)
-  rails-assets-animatescroll
-  rails-assets-bigSlide
-  rails-assets-daviferreira--medium-editor
-  rails-assets-fontawesome
-  rails-assets-headroom.js
-  rails-assets-iacquire-medium-editor-insert-plugin
-  rails-assets-normalize-scss
+  rails-assets-animatescroll!
+  rails-assets-bigSlide!
+  rails-assets-daviferreira--medium-editor!
+  rails-assets-fontawesome!
+  rails-assets-headroom.js!
+  rails-assets-iacquire-medium-editor-insert-plugin!
+  rails-assets-normalize-scss!
   rails-i18n
   rails_12factor
   rb-fsevent
@@ -469,3 +469,6 @@ DEPENDENCIES
   uglifier
   unicorn
   webmock
+
+BUNDLED WITH
+   1.10.6
